@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    transition: all 400ms ease-in-out;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 6%);
+}
+
+.online {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff385c;
+    position: relative;
+    left: 26px;
+    top: 4px;
+}
+
+.start h2 {
+    align-items: center;
+    color: #222222;
+    font-weight: var(--h-oqhch);
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.span img {
+    border-radius: 4px;
+    height: 30px;
+    aspect-ratio: auto 53 / 30;
+    width: 53px;
+}
+
+.button-one {
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background: #f7f7f7;
+    border: none;
+    border-radius: 8px;
+}
+
+.span-nav {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.content {
+    border-left: 2px solid #dddddd;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 54px;
+    padding: 13px 0px;
+    align-items: center;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 6%);
+}
+
+.navbar-img img {
+    width: 30%;
+}
+
+.nav-text span {
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px 0px 10px 10px;
+    font-weight: 700;
+    width: 90px;
+}
+
+.nav-text p {
+    width: 80px;
+    padding: 10px;
+    font-size: 17px;
+    font-family: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-text :hover {
+    border-radius: 40px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.nav-text {
+    border-radius: 40px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    display: flex;
+    margin-right: 120px;
+}
+
+.nav-btn {
+    display: flex;
+    width: 28%;
+    align-items: center;
+}
+
+.search-bar {
+    border-radius: 50%;
+    width: 24px;
+    background: #ff385c;
+    padding: 6px;
+    margin: 6px;
+}
+
+.nav-btn img,
+.zenor {
+    width: 22px;
+    height: 21px;
+}
+
+.nav-btn a {
+    margin: 15px;
+    background: none;
+}
+
+.nav-btn button {
+    width: 83%;
+    border: none;
+    color: gray;
+    font-weight: 800;
+    background: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-btn button:hover,
+.button-navbar:hover {
+    background: rgb(205, 202, 202);
+    border-radius: 20px;
+    height: 40px;
+}
+
+.button-navbar img {
+    display: flex;
+    width: 43%;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.button-navbar {
+    display: flex;
+    width: 150px;
+    height: 56px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    border-radius: 50px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.button-navbar a {
+    display: flex;
+    width: 100%;
+}
+
+.nav-icon {
+    padding: 14px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-icon img {
+    height: 25px;
+    width: 25px;
+}
+
+.design-icon {
+    cursor: pointer;
+    display: grid;
+}
+
+.design-icon span:hover {
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: rgb(0 0 0 / 16%) 0 0 6px;
+}
+
+.design-icon span {
+    font-size: 16px;
+    margin-left: -15px;
+    color: grey;
+}
+
+.arrow button {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+}
+
+.arrow-flitter img,
+.arrow img {
+    width: 24px;
+    height: 24ppx;
+}
+
+.arrow-flitter button {
+    margin-left: 20px;
+    width: 90px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.image-text img {
+    width: 280px;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.loveicon img {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    bottom: 220px;
+    cursor: pointer;
+    left: 240px;
+    border: 2px solid gray;
+}
+
+.hostle-name img {
+    width: 20px;
+    height: 20px;
+}
+
+.hostle-name p {
+    display: inline-flex;
+}
+
+.hostle-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.program {
+    line-height: 1.5;
+    font-size: 18px;
+    cursor: pointer;
+    color: grey;
+    font-weight: 600;
+}
+
+.price {
+    width: 90px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.flex-flow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+p {
+    color: darkgrey;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navlord {
+    padding: 0px 80px;
+    background: white;
+}
+
+.scrolflex {
+    padding: 0px 80px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    padding: 20px 245px;
+    display: flex;
+    position: fixed;
+    top: 92%;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+.footers {
+    display: flex;
+    width: 510px;
+    font-size: 16px;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.footers a,
+.last a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.last {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 170px;
+}
+
+.lasts {
+    display: contents;
+}
+
+.standby button {
+    width: 140px;
+    font-size: 20px;
+    left: 45%;
+    height: 60px;
+    display: inline-flex !important;
+    border-radius: 24px !important;
+    border: none !important;
+    outline: none !important;
+    margin: 0px !important;
+    padding: 14px 19px !important;
+    color: #f7f7f7;
+    background-color: black;
+    cursor: pointer !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    background-clip: padding-box !important;
+    position: relative;
+    bottom: 70px;
+}
